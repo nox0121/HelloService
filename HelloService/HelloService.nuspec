@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>HelloService</id>
+    <version>$version$</version>
+    <title>HelloService</title>
+    <authors>Nox Wang</authors>
+    <owners>Nox Wang</owners>
+    <projectUrl>https://github.com/nox0121/HelloService</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Say hello!</description>
+    <copyright>Copyright 2019</copyright>
+    <tags>Hello Service</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+    </dependencies>
+  </metadata>
+    <files>
+    <file src="bin\Release\HelloService.dll" exclude="bin\Release\*.dll.config" target="lib\net40\HelloService.dll" />
+  </files>
+</package>

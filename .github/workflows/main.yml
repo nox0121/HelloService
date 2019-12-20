@@ -15,3 +15,11 @@ jobs:
 
       - name: Setup Nuget.exe
         uses: warrenbuckley/Setup-Nuget@v1
+
+      - name: Build NuGet Package
+        run: nuget pack HelloService\HelloService.nuspec -Version 1.0.0
+
+      - name: Deploy Nuget Package
+        run: |
+          nuget setApiKey ${{ secrets.NUGET_DEPLOY_KEY }}
+          nuget push *.nupkg
