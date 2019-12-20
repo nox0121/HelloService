@@ -12,6 +12,8 @@
     <AssemblyName>HelloService</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <IncludeSymbols>true</IncludeSymbols> 
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat> 
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
