@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CINugetSample
 {
-    public class HelloService
+    public class HelloServiceN
     {
         public string SayHello()
         {

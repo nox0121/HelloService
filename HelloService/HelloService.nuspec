@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <package >
   <metadata>
-    <id>HelloService</id>
+    <id>HttpHelloService</id>
     <version>$version$</version>
     <title>HelloService</title>
     <authors>Nox Wang</authors>
